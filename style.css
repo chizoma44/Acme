@@ -124,6 +124,20 @@ p {
     display: grid;
     grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
   }
+  #section-a .content-text {
+    columns: 1;
+    column-gap: 2em;
+  }
+  #section-a .content-text p {
+    padding-top: 0;
+  }
+  #section-b ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  #section-b li {
+    width: 31%;
+  }
   .content-wrap,
   #section-b ul {
     grid-column: 2/4;
